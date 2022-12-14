@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
@@ -13,7 +11,11 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='About Image' />
+            <img
+              src='https://freesvg.org/img/1547510251.png'
+              alt='About Image'
+              className='aboutImage'
+            />
           </div>
         </div>
         <div className='about__content'>
@@ -21,24 +23,18 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years</small>
             </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
+
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>50+</small>
+              <small>30+</small>
             </article>
           </div>
           <p>
-            L orem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-            sit quas molestiae nihil, pariatur provident temporibus odit cumque
-            blanditiis cupiditate velit earum, ea nesciunt. Ipsum laborum nisi
-            enim voluptatibus rerum.
+            An avid and goal-driven full stack web developer with the savvy of
+            building functional fullstack web applications.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Get In Touch

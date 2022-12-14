@@ -45,6 +45,19 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.developerWrapper {
+  /* background-color: red; */
+  width: 800px;
+  position: absolute;
+  left: calc(50% - 400px);
+  height: 500px;
+  /* display: flex; */
+}
+.frontend,
+.developer {
+  font-size: 80px;
+}
+
 .scroll__down {
   position: absolute;
   right: -2.3rem;
