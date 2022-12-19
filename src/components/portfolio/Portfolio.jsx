@@ -1,30 +1,22 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/AdminDashboard.png'
+import IMG2 from '../../assets/HMS.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Data visualization',
-    github: 'https://github.com',
-    demo: 'http://reliable-hotteok-297159.netlify.app/',
+    title: 'Admin Dashboard',
+    github: 'https://github.com/Alausa-AbdulAzeez/adminDashboard',
+    demo: 'https://graceful-sunshine-fa7e76.netlify.app/',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Data visualization',
-    github: 'https://github.com',
-    demo: 'http://reliable-hotteok-297159.netlify.app/',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Data visualization',
-    github: 'https://github.com',
-    demo: 'http://reliable-hotteok-297159.netlify.app/',
+    title: 'HMS',
+    github: 'https://github.com/Alausa-AbdulAzeez/hms',
+    demo: 'https://magical-choux-f4a46f.netlify.app/',
   },
 ]
 
@@ -37,9 +29,13 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         {data.map((singleItem) => {
           return (
-            <article className='portfolio__item'>
+            <article className='portfolio__item' key={singleItem.id}>
               <div className='portfolio__item-image'>
-                <img src={singleItem.image} alt='' />
+                <img
+                  src={singleItem.image}
+                  alt=''
+                  className='portfolio__item_image'
+                />
               </div>
               <h3>{singleItem.title}</h3>
               <div className='portfolio__item-cta'>
