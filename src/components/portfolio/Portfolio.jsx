@@ -2,15 +2,9 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/AdminDashboard.png";
 import IMG2 from "../../assets/HMS.png";
+import IMG3 from "../../assets/Screenshot (6).png";
 
 const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: "Admin Dashboard",
-    github: "https://github.com/Alausa-AbdulAzeez/adminDashboard",
-    demo: "https://graceful-sunshine-fa7e76.netlify.app/",
-  },
   {
     id: 2,
     image: IMG2,
@@ -19,11 +13,18 @@ const data = [
     demo: "https://magical-choux-f4a46f.netlify.app/",
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 3,
+    image: IMG3,
     title: "PROMPTOPIA",
     github: "https://github.com/Alausa-AbdulAzeez/prompt",
     demo: "https://prompt-gamma.vercel.app/",
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: "Admin Dashboard",
+    github: "https://github.com/Alausa-AbdulAzeez/adminDashboard",
+    demo: "https://graceful-sunshine-fa7e76.netlify.app/",
   },
 ];
 
@@ -34,7 +35,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map((singleItem) => {
+        {data.reverse().map((singleItem) => {
           return (
             <article className="portfolio__item" key={singleItem.id}>
               <div className="portfolio__item-image">
