@@ -35,7 +35,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.reverse().map((singleItem) => {
+        {data.map((singleItem) => {
           return (
             <article className="portfolio__item" key={singleItem.id}>
               <div className="portfolio__item-image">
