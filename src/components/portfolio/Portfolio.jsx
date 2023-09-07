@@ -46,7 +46,7 @@ const data = [
     demo: 'https://staff.biopathonline.com/',
     tools: ['React', 'SCSS', 'Redux-Tool-Kit'],
     details:
-      'Created a Laboratory Information Management System (LIMS) fostering seamless collaboration across laboratory sections and serving as a dynamic data management tool.',
+      'Created a LIMS, fostering seamless collaboration across laboratory sections and serving as a dynamic data management tool.',
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const data = [
     demo: 'https://admin.lifeworthhmoportal.com/',
     tools: ['React', 'CSS', 'Redux-Tool-Kit'],
     details:
-      'Revolutionized the claims processing workflow by developing a cost-effective, in-house portal, successfully replacing an expensive third-party application.',
+      'Restructured the claims processing workflow by developing a cost-effective, in-house portal, replacing a third-party application.',
   },
   {
     id: 2,
