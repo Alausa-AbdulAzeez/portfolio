@@ -46,7 +46,7 @@ const data = [
     demo: 'https://staff.biopathonline.com/',
     tools: ['React', 'SCSS', 'Redux-Tool-Kit'],
     details:
-      'It enabled seamless collaboration among various laboratory sections while also serving as a dynamic data management tool.',
+      'Created a Laboratory Information Management System (LIMS) fostering seamless collaboration across laboratory sections and serving as a dynamic data management tool.',
   },
   {
     id: 5,
@@ -54,9 +54,9 @@ const data = [
     title: 'Claims Vetting Portal',
     github: '',
     demo: 'https://admin.lifeworthhmoportal.com/',
-    tools: ['React', 'SCSS', 'Redux-Tool-Kit'],
+    tools: ['React', 'CSS', 'Redux-Tool-Kit'],
     details:
-      'Claims Processing Portal, replacing a costly third-party application.',
+      'Revolutionized the claims processing workflow by developing a cost-effective, in-house portal, successfully replacing an expensive third-party application.',
   },
   {
     id: 2,
