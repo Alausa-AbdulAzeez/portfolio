@@ -13,8 +13,9 @@ const data = [
     image: IMG1,
     title: '3D-Customization',
     github: 'https://github.com/Alausa-AbdulAzeez/3DShirtCustomizatonClient',
-    demo: 'https://3-d-shirt-customizaton-client.vercel.app/',
-    tools: ['React', 'Tailwind', 'threeJS', 'Framer-Motion'],
+    demo: 'https://zshirt-customizer.vercel.app/',
+    // demo: 'https://3-d-shirt-customizaton-client.vercel.app/',
+    tools: ['React', 'threeJS', 'Framer-Motion'],
     details:
       'Designed an amazing 3D shirt customization tool using Three.js for immersive 3D experiences, Framer Motion for stunning animations, and Tailwind CSS for sleek and responsive design.',
   },
