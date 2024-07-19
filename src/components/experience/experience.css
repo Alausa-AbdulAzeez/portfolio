@@ -88,4 +88,12 @@
     width: 100%;
     padding: 2rem 1rem;
   }
+  .workExperience {
+    background: var(--color-bg-variant);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-bottom: 2rem;
+  }
 }

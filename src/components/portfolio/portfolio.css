@@ -11,6 +11,7 @@
   border: 1px solid transparent;
   transition: var(--transition);
   overflow-y: auto !important;
+  height: fit-content;
 }
 
 .portfolio__item:hover {

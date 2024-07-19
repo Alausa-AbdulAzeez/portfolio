@@ -1,13 +1,17 @@
 .container.contact__container {
   width: 58%;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 30% 58%;
-  gap: 12%;
+  gap: 12%; */
+
+  display: flex;
+  justify-content: center;
 }
 
 .contact__options {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* flex-direction: column; */
   gap: 1.2rem;
 }
 
@@ -18,6 +22,7 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  width: 280px;
 }
 
 .contact__ option:hover {
@@ -62,5 +67,10 @@ textarea {
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+  }
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
   }
 }

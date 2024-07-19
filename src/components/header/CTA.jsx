@@ -1,26 +1,22 @@
-import React from 'react'
+import React from "react";
 // import CV from '../../assets/cv.pdf'
 
 const CTA = () => {
   return (
-    <div className='cta'>
+    <div className="cta">
       <a
-        // href='https://drive.google.com/file/d/18gps8HeprMCYfkiibee_CiOZXmjsPF14/view?usp=sharing'
-        // href='https://docs.google.com/document/d/18P4gwCgvFQolz4Sr-8xqOb2dp-AQnzELBc9U3f-keps/edit?usp=sharing'
-        href='https://drive.google.com/file/d/1ZE4GfdoUvU1sdqtLzkSVAn94mOwkOBCV/view'
-        // href='https://drive.google.com/file/d/1g3mwP2yUMJMeziBjptSVrAeaEkm5EcRp/view?usp=sharing'
-        // download='cv'
-        target='_blank'
-        className='btn'
-        rel='noreferrer'
+        href="https://drive.google.com/file/d/1a5l8lPcD17YzOYUq_vsCN3MHac13s4d9/view"
+        target="_blank"
+        className="btn"
+        rel="noreferrer"
       >
         View Resume
       </a>
-      <a href='#contact' className='btn btn-primary'>
+      <a href="#contact" className="btn btn-primary">
         Let's Talk
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;
