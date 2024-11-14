@@ -5,9 +5,39 @@ import IMG2 from "../../assets/HMS.png";
 import IMG3 from "../../assets/nike.png";
 import IMG6 from "../../assets/metaverse.png";
 import IMG4 from "../../assets/BiopathProject.png";
-import IMG5 from "../../assets/lwPortal.png";
+import IMG5 from "../../assets/pathfinder.png";
+import IMG7 from "../../assets/equiserve.png";
 
 const data = [
+  {
+    id: 6,
+    image: IMG7,
+    title: "Equiserve",
+    github: "",
+    demo: "https://equiserve.vercel.app/",
+    tools: ["React", "Tailwind", "Framer motion"],
+    details: "",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Pathfinder",
+    github: "",
+    demo: "https://landing.mypathfinder.ai/",
+    tools: ["React", "Tailwind", "Framer motion"],
+    details: "",
+  },
+
+  {
+    id: 4,
+    image: IMG4,
+    title: "LIMS",
+    github: "",
+    demo: "https://lims.biopathmedlab.com/login",
+    tools: ["React", "SCSS", "Redux-Tool-Kit"],
+    details:
+      "Created a LIMS, fostering seamless collaboration across laboratory sections and serving as a dynamic data management tool.",
+  },
   {
     id: 1,
     image: IMG1,
@@ -39,16 +69,6 @@ const data = [
     details:
       "Crafted a fully responsive and contemporary Next.js website  enriched with captivating animations brought to life by the dynamic capabilities of Framer Motion",
   },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: 'LIMS',
-  //   github: '',
-  //   demo: 'https://staff.biopathonline.com/',
-  //   tools: ['React', 'SCSS', 'Redux-Tool-Kit'],
-  //   details:
-  //     'Created a LIMS, fostering seamless collaboration across laboratory sections and serving as a dynamic data management tool.',
-  // },
   // {
   //   id: 5,
   //   image: IMG5,
@@ -93,7 +113,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map((singleItem) => {
           return (
-            <article className="portfolio__item" key={singleItem.id}>
+            <div className="portfolio__item" key={singleItem.id}>
               <div className="portfolio__item-image">
                 <img
                   src={singleItem.image}
@@ -132,7 +152,7 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            </article>
+            </div>
           );
         })}
       </div>
